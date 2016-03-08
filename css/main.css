@@ -16,10 +16,23 @@ body{
   background-attachment: fixed;
 
 }
+.az{
+  background-image: url(../img/FONDO-CINTA.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-attachment: fixed;
+
+}
 
 .rodo{
   font-family: Bebas;
   line-height: 46px;
+
+}
+.rodo2{
+  font-family: Bebas;
+  line-height: 80px;
 
 }
 .kinep{
@@ -65,6 +78,10 @@ predd2{
   line-height: 45px;
   text-align: justify;
 }
+.logo-index{
+margin-top: 80px;
+margin-bottom: 10px;
+}
 .titulo{
   font-size:45px;
    margin-top:6%;
@@ -99,16 +116,97 @@ h2{
 .espe{
   background-color: rgb(17, 241, 241);
   }
+  .titulo_patrocinadores{
+    text-align: center;
+    background-color:  rgb(212, 115, 123);
+    font-size: 90px;
+    padding: 5px;
+    color: white;
+    margin-bottom: 30px;
+  }
+  .degRosa{
+    background-image: url(../img/degRosa.png);
+    text-align: center;
+    margin-bottom: 50%;
+  }
+  .degAzul{
+    background-image: url(../img/degAzul.png);
+    text-align: center;
+    margin-top: 50%;
+  }
+  .degAzul span{
+    font-size: 60px;
+  }
+  .degAzul small{
+    font-size: 30px;
+  }
+  .degRosa span{
+    font-size: 40px;
+  }
+  .eatcine{
 
-.Trapezio { border-bottom: 75px solid pink; border-right: 30px solid transparent; height: 0; width: 350px; }
+    font-family:Bebas;
+    background-image: url(../img/eatcine.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    background-attachment: scroll;
+  }
+  .patrocinadores{
+    background-color: rgb(179, 223, 214);
+    height: 110px;
+    padding: 10px 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content:space-around;
+    justify-content: space-around;
+  }
+.contenedor{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content:space-between;
+  justify-content: space-between;
+}
+.Trapezio {
+  background-color: rgb(212, 115, 123);
+  font-size:45px;
+  color: white;
+  padding: 5px;
+  margin: 0;
+  }
+  .contenedor img{
+    background-color: white;
+  }
 .Trapezio2 { border-bottom: 75px solid rgb(136, 255, 62); border-right: 30px solid transparent; height: 0; width: 350px; }
 
-.Trapezio4 { border-bottom: 175px solid rgb(184, 255, 242); border-right: 70px solid transparent; height: 0; width: 500px; z-index: -1;}
+.Trapezio4 {
+  border-bottom: 600px solid rgb(182, 224, 215);
+  border-right: 350px solid transparent;
+  height: 0;
+  width: 700px;
+  z-index: -1;
+}
+.trapecio{
+  width: 50%;
+    height: 0px;
+    border-right:350px solid transparent;
+    border-bottom: 550px solid rgb(182, 224, 215);
+    margin-bottom: 20px;
+}
+.trapecio2{
+  width: 90%;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 60px solid rgb(227, 230, 232);
+    margin-bottom: 10px;
+}
 .Trapezio3 { border-bottom: 200px solid pink; border-right: 50px solid transparent; z-index: -1;}
 @media (max-width: 450px){
   .titulo{
     font-size:25px;
      margin-top:5%;
+  }
+
   }
   .prensa{
       background-color: white;
